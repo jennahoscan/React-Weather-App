@@ -1,5 +1,5 @@
 import React from "react";
-import "./Ilustrations.css";
+import "./Illustrations.css";
 
 export default function Illustrations() {
   return (

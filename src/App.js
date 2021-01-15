@@ -5,7 +5,7 @@ import Forecast from "./Forecast";
 import ForecastDescription from "./ForecastDescription";
 import Footer from "./Footer";
 import Illustrations from "./Illustrations";
-import "./styles.css";
+import "./index.css";
 
 export default function App() {
   return (
