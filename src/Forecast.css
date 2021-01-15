@@ -1,0 +1,52 @@
+button {
+  background: none;
+  border: none;
+}
+
+#celsius,
+#farenheit {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.25em;
+  color: #000000;
+}
+
+#outer {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.arrows {
+  height: 80px;
+  width: 50px;
+  margin: 0 20px;
+}
+
+#icon {
+  height: 200px;
+  width: 200px;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#degree {
+  color: #000;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+#degree-symbol {
+    color: #000;
+    font-size: 2rem;
+    vertical-align: top;
+    
+}

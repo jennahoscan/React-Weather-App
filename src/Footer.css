@@ -1,0 +1,12 @@
+footer {
+  z-index: 5;
+  position: fixed;
+  bottom: 50px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.25rem;
+}
+
+footer a {
+  color: #ffffff;
+}

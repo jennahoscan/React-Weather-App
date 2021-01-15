@@ -1,0 +1,39 @@
+.animation-icon {
+  width: 175px;
+  z-index: -1;
+}
+
+#one {
+  position: fixed;
+  top: 100px;
+  left: 50px;
+  opacity: 0.5;
+}
+
+#two {
+  position: fixed;
+  top: 300px;
+  left: 175px;
+  opacity: 0.25;
+}
+
+#three {
+  position: fixed;
+  top: 160px;
+  right: 50px;
+  opacity: 0.75;
+}
+
+#four {
+  position: fixed;
+  top: 275px;
+  right: 100px;
+  opacity: 0.35;
+}
+
+.grass {
+  width: 100vw;
+  height: 30%;
+  position: fixed;
+  bottom: 0;
+}
