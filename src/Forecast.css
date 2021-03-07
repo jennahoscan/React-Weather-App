@@ -1,6 +1,21 @@
+p {
+  padding-top: 280px;
+  text-align: center;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+#description {
+  font-weight: bold;
+}
+
 button {
   background: none;
   border: none;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  color: #fff;
 }
 
 #celsius,
@@ -45,8 +60,7 @@ button {
 }
 
 #degree-symbol {
-    color: #000;
-    font-size: 2rem;
-    vertical-align: top;
-    
+  color: #000;
+  font-size: 2rem;
+  vertical-align: top;
 }

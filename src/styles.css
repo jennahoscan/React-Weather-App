@@ -1,3 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to top, #7aadff 0%, #c2e9fb 100%);
+  width: 100vw;
+  height: 100vh;
+  font-family: "Quicksand", sans-serif;
+  font-size: 100%;
+  color: #ffffff;
+}
+
+.blue {
+  background: #7aadff;
+}
 .animation-icon {
   width: 175px;
   z-index: -1;

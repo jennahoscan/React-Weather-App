@@ -25,3 +25,10 @@ header {
   border: none;
   border-radius: 30px;
 }
+
+#location-button {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #ffffff;
+}
