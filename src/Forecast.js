@@ -79,8 +79,8 @@ export default function Forecast() {
     let lat = position.coords.latitude;
     let lon = position.coords.longitude;
     let units = "metric";
-    let apiKey = "5ed4231e4848c446bb7ab760ec22172f";
-    let apiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&appid=${apiKey}&units=${units}`;
+    let apiKey = "bd0419e25834aefa239c8e4296d64f9b";
+    let apiUrl = `https://api.openweathermap.org/data/2.5/forecast/daily?lat=${lat}&lon=${lon}&cnt=5&appid=${apiKey}&units=${units}`;
     axios.get(apiUrl).then(getForecast);
   }
 
